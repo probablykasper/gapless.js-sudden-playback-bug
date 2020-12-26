@@ -16,8 +16,8 @@ document.querySelector('#button').addEventListener('click', () => {
   }
   console.log(player)
   player.play()
-  // setTimeout(() => {
-  //   console.log('pause')
-  //   player.pause()
-  // }, 2000)
+  setTimeout(() => {
+    console.log('pause')
+    player.pause()
+  }, 2000)
 })
